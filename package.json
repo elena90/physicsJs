@@ -1,0 +1,34 @@
+{
+  "name": "physicsJS",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elena90/physicsJs.git"
+  },
+  "author": "Ivanova E.V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elena90/physicsJs/issues"
+  },
+  "homepage": "https://github.com/elena90/physicsJs",
+  "devDependencies": {
+    "event-stream": "^3.1.7",
+    "gulp": "3.8.11",
+    "gulp-autoprefixer": "0.0.9",
+    "gulp-concat": "2.3.4",
+    "gulp-debug": "^2.0.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-folders": "^1.1.0",
+    "gulp-if": "^1.2.4",
+    "gulp-jade": "^1.0.0",
+    "gulp-less": "1.3.5",
+    "gulp-minify-css": "0.3.7",
+    "gulp-print": "^1.1.0",
+    "gulp-rename": "1.2.0",
+    "gulp-svg-sprites": "^1.0.3",
+    "gulp-uglify": "0.3.2",
+    "gulp-wrap": "^0.3.0",
+    "run-sequence": "^0.3.6"
+  }
+}
