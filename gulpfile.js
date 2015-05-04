@@ -37,7 +37,9 @@ gulp.task('commonCss', function () {
 });
 
 gulp.task('commonJS', function() {
-    return gulp.src(['src/js/jquery.min.js'])
+    return gulp.src(['src/js/jquery.min.js',
+                     'src/js/ball.js',
+                     'src/js/graph.js'])
             .pipe(concat('lib.min.js'))
             .pipe(uglify())
             .pipe(gulp.dest('static/js/'));
