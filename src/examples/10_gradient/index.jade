@@ -1,0 +1,13 @@
+extends ../../layouts/layout
+
+block head-title
+  | - canvas ball
+
+block styles
+  link(href="./css/style.css", rel="stylesheet")
+
+block scripts
+  script(src='./js/main.js')
+
+block content
+  canvas(id="canvas" width=500 height=500)
