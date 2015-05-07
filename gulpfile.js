@@ -39,7 +39,10 @@ gulp.task('commonCss', function () {
 gulp.task('commonJS', function() {
     return gulp.src(['src/js/jquery.min.js',
                      'src/js/ball.js',
-                     'src/js/graph.js'])
+                     'src/js/graph.js',
+                     'src/js/vector2D.js',
+                     'src/js/particle.js',
+                     'src/js/ball2.js'])
             .pipe(concat('lib.min.js'))
             .pipe(uglify())
             .pipe(gulp.dest('static/js/'));
